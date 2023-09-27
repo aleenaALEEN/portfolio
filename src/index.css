@@ -1,13 +1,193 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --themeColor: #f29f67;
+  --whiteColor: white;
+  --blackColor: black;
+  --lightColor: #1e1e2c;
+}
+/* navbar---- */
+nav {
+  background-color: var(--lightColor);
+  font-family: cursive;
+}
+.navbar-brand {
+  color: var(--themeColor);
+  text-shadow: 2px 2px 1px white;
+}
+ul {
+  width: 55%;
+  margin-left: auto;
+}
+.nav-link {
+  color: var(--whiteColor);
+  cursor: pointer;
+}
+.nav-link a {
+  text-decoration: none;
+  color: var(--whiteColor);
+}
+.nav-link:hover {
+  color: var(--themeColor);
+}
+/* Home----------- */
+.home-container {
+  color: var(--whiteColor);
+  height: 40vh;
+  background-color: var(--blackColor);
+}
+.home-content > h2 {
+  padding: 5px;
+  padding-top: 70px;
+}
+.home-content > h1 {
+  color: #e0b50f;
+  padding: 5px;
+}
+.home-buttons {
+  margin-top: 20px;
+}
+.home-buttons .btn-cv {
+  color: var(--whiteColor);
+  background-color: var(--themeColor);
+}
+.home-buttons .btn-cv:hover {
+  opacity: 80%;
+  transition: 1s;
+}
+/* About------------- */
+.about {
+  margin: 30px 0px;
+  padding: 20px 0px;
+}
+.about-img > img {
+  border-radius: 10px;
+  width: 100%;
+  height: 400px;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.about-content > h1 {
+  font-family: cursive;
+  border-bottom: 2px solid gray;
+  text-align: center;
+}
+span {
+  color: #f29f67;
+}
+.about-content > p {
+  text-align: justify;
+  padding: 20px;
+}
+/* ---Skills------------ */
+.skills h2 {
+  font-weight: bold;
+  font-family: cursive;
+}
+span {
+  color: #f29f67;
+}
+.skills > hr {
+  color: gray;
+  width: 210px;
+  margin: 10px auto;
+}
+.skills .card {
+  cursor: pointer;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.skills .skill-icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+.skills .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #f29f67;
+  color: white;
+  border: none;
+  transition: 1s;
+}
+/* Projects-------------- */
+.project h2 {
+  font-weight: bold;
+  font-family: cursive;
+}
+span {
+  color: #f29f67;
+}
+.project > hr {
+  color: gray;
+  width: 350px;
+  margin: 10px auto;
+}
+#ads .card-notify-badge {
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  background-color: #f29f67;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
+.project .card img {
+  height: 220px;
+  width: 100%;
+}
+.card-detail-badge {
+  background-color: #f29f67;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.card-image-overlay {
+  font-size: 20px;
+}
+.card-image-overlay span {
+  display: inline-block;
+  margin-left: 3px;
+  color: white;
+}
+.project .card:hover {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: all 1s ease;
+}
+.ad-btn {
+  text-transform: uppercase;
+  background-color: #1e1e2c;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 20px auto 20px auto;
+  overflow: hidden;
+  position: relative;
+}
+.ad-btn:hover {
+  background-color: white;
+  color: #f29f67;
+  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+/* --------foooer----------/ */
+footer {
+  background-color: var(--lightColor);
+  color: var(--whiteColor);
 }
