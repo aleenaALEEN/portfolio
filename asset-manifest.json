@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f9241d37.css",
+    "main.js": "/portfolio/static/js/main.94761498.js",
+    "static/js/787.cda612ba.chunk.js": "/portfolio/static/js/787.cda612ba.chunk.js",
+    "static/media/Coffeshop.PNG": "/portfolio/static/media/Coffeshop.19b66e5bd59754a62576.PNG",
+    "static/media/next-app.PNG": "/portfolio/static/media/next-app.8ac7b21206e21d58af65.PNG",
+    "static/media/mern-app.PNG": "/portfolio/static/media/mern-app.8a2212c5015180d564a2.PNG",
+    "static/media/AleenaFaisal-Cv.pdf": "/portfolio/static/media/AleenaFaisal-Cv.7b6ea5588262f11e50b7.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.f9241d37.css.map": "/portfolio/static/css/main.f9241d37.css.map",
+    "main.94761498.js.map": "/portfolio/static/js/main.94761498.js.map",
+    "787.cda612ba.chunk.js.map": "/portfolio/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9241d37.css",
+    "static/js/main.94761498.js"
+  ]
+}
