@@ -1,7 +1,8 @@
 import React from "react";
-import img1 from "../assets/mern-app.PNG";
-import img2 from "../assets/Coffeshop.PNG";
-import img3 from "../assets/next-app.PNG";
+import img1 from "../assets/Coffeshop.PNG";
+import img2 from "../assets/calculator.PNG"
+import img3 from "../assets/todo.PNG"
+import img4 from "../assets/weather.PNG"
 import Spin from "react-reveal/Spin";
 
 const Projects = () => {
@@ -17,48 +18,11 @@ const Projects = () => {
         </p>
         <div className="row" id="ads">
           <Spin>
-            <div className="col-12 col-md-6 col-lg-6 py-4 py-lg-0">
-              <div className="card pb-3 rounded">
-                <div className="card-image">
-                  <span className="card-notify-badge">MernStack App</span>
-                  <img src={img1} alt="Project1 pic" />
-                </div>
-                <div className="card-image-overlay m-auto mt-3">
-                  <span className="card-detail-badge">NodeJs</span>
-                  <span className="card-detail-badge">ReactJs</span>
-                  <span className="card-detail-badge">ExpressJs</span>
-                  <span className="card-detail-badge">MongoDB</span>
-                </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h5 className="text-uppercase pb-2">
-                      Ecommerce Shopping App
-                    </h5>
-                  </div>
-                  <span className="p-1">
-                    <a
-                      href="https://github.com/aleenaALEEN/Amazona"
-                      className="ad-btn"
-                    >
-                      View Code
-                    </a>
-                  </span>
-                  <span className="p-1">
-                    <a
-                      href="https://lingerie-millipede.cyclic.app/"
-                      className="ad-btn"
-                    >
-                      Live Demo
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 col-lg-6 py-4 py-lg-0">
+            <div className="col-12 col-md-3 col-lg-3 py-4 py-lg-0">
               <div className="card pb-3 rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">Frontend App</span>
-                  <img src={img2} alt="Project1 pic" />
+                  <img src={img1} alt="Project1 pic" />
                 </div>
                 <div className="card-image-overlay m-auto mt-3">
                   <span className="card-detail-badge">ReactJs</span>
@@ -83,7 +47,99 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-         
+            {/* ------------------calculator------------- */}
+            <div className="col-12 col-md-3 col-lg-3 py-4 py-lg-0">
+              <div className="card pb-3 rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">calculator App</span>
+                  <img src={img2} alt="Project2 pic" />
+                </div>
+                <div className="card-image-overlay m-auto mt-3">
+                  <span className="card-detail-badge">HTML5</span>
+                  <span className="card-detail-badge">CSS3</span>
+                  <span className="card-detail-badge">ReactJs</span>
+                </div>
+                <div className="card-body text-center">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase pb-2">
+                      Calculator ReactJs App
+                    </h5>
+                  </div>
+                  <span className="p-1">
+                    <a href="https://github.com/aleenaALEEN/calculator" className="ad-btn">
+                      View Code
+                    </a>
+                  </span>
+                  <span className="p-1">
+                    <a href="https://aleenaaleen.github.io/calculator/" className="ad-btn">
+                      Live Demo
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            {/* -----------------Todo-App----------------- */}
+            <div className="col-12 col-md-3 col-lg-3 py-4 py-lg-0">
+              <div className="card pb-3 rounded">
+                <div className="card-image border">
+                  <span className="card-notify-badge">Todo-List App</span>
+                  <img src={img3} alt="Project2 pic" />
+                </div>
+                <div className="card-image-overlay m-auto mt-3">
+                  <span className="card-detail-badge">HTML5</span>
+                  <span className="card-detail-badge">Bootstrap</span>
+                  <span className="card-detail-badge">ReactJs</span>
+                </div>
+                <div className="card-body text-center">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase pb-2">
+                      Todo-List ReactJs App
+                    </h5>
+                  </div>
+                  <span className="p-1">
+                    <a href="https://github.com/aleenaALEEN/todoApp" className="ad-btn">
+                      View Code
+                    </a>
+                  </span>
+                  <span className="p-1">
+                    <a href="https://aleenaaleen.github.io/todoApp/" className="ad-btn">
+                      Live Demo
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            {/* --------------weather------------ */}
+            <div className="col-12 col-md-3 col-lg-3 py-4 py-lg-0">
+              <div className="card pb-3 rounded">
+                <div className="card-image border">
+                  <span className="card-notify-badge">weather App</span>
+                  <img src={img4} alt="Project2 pic" />
+                </div>
+                <div className="card-image-overlay m-auto mt-3">
+                  <span className="card-detail-badge">HTML5</span>
+                  <span className="card-detail-badge">CSS3</span>
+                  <span className="card-detail-badge">ReactJs</span>
+                </div>
+                <div className="card-body text-center">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase pb-2">
+                      weather ReactJs App
+                    </h5>
+                  </div>
+                  <span className="p-1">
+                    <a href="https://github.com/aleenaALEEN/weatherApp" className="ad-btn">
+                      View Code
+                    </a>
+                  </span>
+                  <span className="p-1">
+                    <a href="https://aleenaaleen.github.io/weatherApp/" className="ad-btn">
+                      Live Demo
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
           </Spin>
         </div>
       </div>

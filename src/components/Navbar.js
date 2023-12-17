@@ -74,6 +74,19 @@ const Navbar = () => {
                 <li className="nav-item">
                   <a className="nav-link" aria-current="page">
                     <Link
+                      to="experience"
+                      spy={true}
+                      smooth={true}
+                      duration={100}
+                      offset={-100}
+                    >
+                      Experience
+                    </Link>
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" aria-current="page">
+                    <Link
                       to="projects"
                       spy={true}
                       smooth={true}

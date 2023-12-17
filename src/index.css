@@ -91,6 +91,7 @@ span {
   font-weight: bold;
   font-family: cursive;
 }
+
 span {
   color: #f29f67;
 }
@@ -125,7 +126,7 @@ span {
 }
 .project > hr {
   color: gray;
-  width: 350px;
+  width: 290px;
   margin: 10px auto;
 }
 #ads .card-notify-badge {

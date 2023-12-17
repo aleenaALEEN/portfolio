@@ -13,8 +13,8 @@ const Skills = () => {
         </h2>
         <hr />
         <p className="pb-3 text-center">
-          👉 Including progammming Languages, frameworks, databases, front-end
-          and back-end tools, and APIs.
+          👉 Including progammming Languages, frameworks and front-end
+           tools.
         </p>
         </RubberBand>
         <div className="row">
